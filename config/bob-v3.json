@@ -1,0 +1,9 @@
+{
+  "network": "bob",
+  "PoolAddressesProviderRegistryAddress": "",
+  "PoolAddressesProviderRegistryStartBlock": 0,
+  "AaveOracleAddress": "",
+  "AaveOracleStartBlock": 0,
+  "RewardsControllerAddress": "",
+  "RewardsControllerStartBlock": 0
+}

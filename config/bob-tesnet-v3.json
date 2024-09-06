@@ -1,0 +1,9 @@
+{
+  "network": "bob-testnet",
+  "PoolAddressesProviderRegistryAddress": "0x265082C8c7496a99d8cc1cF98C5E20A5Afe81c5C",
+  "PoolAddressesProviderRegistryStartBlock": 1470112,
+  "AaveOracleAddress": "0x72b138F9DFFe9a8565f3faBB18B67EcAAd423F3e",
+  "AaveOracleStartBlock": 1470112,
+  "RewardsControllerAddress": "0x9027F79025eF5D66f7c7514aa5bF29fA168227Ec",
+  "RewardsControllerStartBlock": 1470112
+}

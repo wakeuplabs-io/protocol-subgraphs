@@ -16,6 +16,8 @@
     "deploy:hosted:mainnet-centrifuge": "VERSION=v2-centrifuge BLOCKCHAIN=ethereum-arc NETWORK=mainnet env-cmd npm run prepare:subgraph && SLUG=aave-centrifuge env-cmd npm run subgraph:deploy",
     "deploy:hosted:polygon-v2": "VERSION=v2 BLOCKCHAIN=matic NETWORK=matic env-cmd npm run prepare:subgraph && SLUG=aave-v2-matic env-cmd npm run subgraph:deploy",
     "deploy:hosted:polygon-v3": "VERSION=v3 BLOCKCHAIN=v3 NETWORK=polygon env-cmd npm run prepare:subgraph && SLUG=protocol-v3-polygon env-cmd npm run subgraph:deploy",
+    "deploy:hosted:bob-v3": "VERSION=v3 BLOCKCHAIN=v3 NETWORK=bob env-cmd npm run prepare:subgraph && SLUG=protocol-v3-bob env-cmd npm run subgraph:deploy",
+    "deploy:hosted:bob-testnet-v3": "VERSION=v3 BLOCKCHAIN=v3 NETWORK=bob-testnet env-cmd npm run prepare:subgraph && SLUG=protocol-v3-bob-testnet env-cmd npm run subgraph:deploy",
     "deploy:hosted:avalanche-v2": "VERSION=v2 BLOCKCHAIN=avalanche NETWORK=avalanche env-cmd npm run prepare:subgraph && SLUG=protocol-v2-avalanche env-cmd npm run subgraph:deploy",
     "deploy:hosted:avalanche-v3": "VERSION=v3 BLOCKCHAIN=v3 NETWORK=avalanche env-cmd npm run prepare:subgraph && SLUG=protocol-v3-avalanche env-cmd npm run subgraph:deploy",
     "deploy:hosted:fuji-v2": "VERSION=v2 BLOCKCHAIN=avalanche NETWORK=fuji env-cmd npm run prepare:subgraph && SLUG=protocol-v2-fuji env-cmd npm run subgraph:deploy",
